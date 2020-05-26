@@ -4,96 +4,6 @@ body {
     text-decoration: none;
 }
 
-.container {
-    max-width: 1170px;
-    margin: auto;
-}
-
-header {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 0;
-    padding: 10px 15px;
-    z-index: 100;
-}
-
-header.sticky {
-    position: fixed;
-    background-color: #222222;
-    animation: header .5s ease;
-}
-
-@keyframes header {
-    0% {
-        transform: translateY(-100%);
-        opacity: 0
-    }
-
-    100% {
-        transform: translateY(0%)
-    }
-}
-
-header .logo {
-    float: left;
-}
-
-header .logo a {
-    text-decoration: none;
-    font-size: 30px;
-    display: inline-block;
-    padding: 5px 0px;
-    color: #ffffff;
-    font-weight: 600;
-    letter-spacing: 2px;
-}
-
-header .navbar {
-    float: right;
-}
-
-header .navbar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-header .navbar ul li {
-    display: inline;
-    padding: 0 15px;
-}
-
-header .navbar ul li a {
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px 0px;
-    font-size: 16px;
-    text-transform: uppercase;
-    color: #ffffff;
-    position: relative;
-}
-
-header .navbar ul li a::before {
-    content: '';
-    position: absolute;
-    top: 100%;
-    margin-top: -5px;
-    height: 2px;
-    left: 0px;
-    background-color: #fff;
-    width: 0;
-    transition: width .5s ease;
-}
-
-header .navbar ul li a.active::before {
-    width: 100%;
-}
-
-header .navbar ul li a:hover::before {
-    width: 100%;
-}
-
 .home {
     min-height: 100vh;
     width: 100%;
@@ -265,124 +175,35 @@ h2.title::before {
 }
 
 
-.resume {
-    float: left;
-    width: 100%;
-    padding: 80px 0px;
-    background-color: #f2f2f2;
-}
-
-.resume .card .card-header {
-    background-color: #ffffff;
-}
-
-.resume .card .card-header h5 button {
-    font-weight: 700 !important;
-    color: #000000;
-    text-transform: uppercase;
-    font-size: 1.2em;
-}
-
-.resume .card .card-header h5 button {
-    text-decoration: none;
-}
-.resume .card .card-header:hover h5 button {
-    text-decoration: none;
-}
-
-.resume .card .card-header {
-    background-color: #ffffff;
-}
-.resume .card .card-header:hover i{
-    transform: rotate(90deg);
-}
-
-
-.resume .card .card-body {
-    background-color: #555555;
-}
-
-.resume .card .card-body ul li {
-    color: #ffffff;
-}
-
-
-.btn-bg {
-    padding: 12px 40px;
-    border-radius: 0;
-    font-size: 16px;
-    color: #ffffff;
-    font-weight: 400;
-    background-color: #222222;
-    border: 1px solid transparent;
-    letter-spacing: .5px;
-    cursor: pointer;
-    transition: all .5s ease;
-}
-
-.btn-bg:hover {
-    border: 1px solid #fff;
-    color: #fff;
-    background-color: transparent;
-}
-
-
-
 .portfolio {
     float: left;
     width: 100%;
     padding: 80px 0px;
     background-color: #e6e6e6;
 }
-
+/* 
 .portfolio h3 {
     text-transform: uppercase;
     color: #000;
     font-weight: 700;
     padding: 15px;
-}
-
+} */
+/* 
 .portfolio .portfolio-content {
     float: left;
     width: 100%;
-}
+} */
 
 .portfolio .portfolio-content .card {
-    float: left;
+  float: left;
     width: 33.33%;
     padding: 15px;
     margin: auto;
-    box-shadow: 0 20px 30px 0 #222;
-    cursor: pointer;
-}
-
-.portfolio .portfolio-content .card .box {
-    padding: 15px;
-    position: relative;
-}
-
-.portfolio .portfolio-content .card .box:hover {
-    background-color: #e6e6e6;
-}
-.portfolio .portfolio-content .card:hover{
-   transform: scale(1.05);
-}
-
-
-.portfolio .portfolio-content .card .box h4 {
-    text-align: center;
-    padding: 5px 0px 25px;
-    color: #000;
-    font-size: 16px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: .5px;
-    text-decoration: none;
+    /* cursor: pointer; */
 }
 
 .portfolio .portfolio-content .card .box img {
     width: 100%;
-    display: block;
 }
 
 
@@ -431,12 +252,7 @@ h2.title::before {
     margin: 0px;
 }
 
-.stock {
-    z-index: 3;
-}
-.dayplanner {
-    z-index: 5;
-}
+
 
 footer {
     float: left;
@@ -448,103 +264,8 @@ footer {
 }
 
 
-.trigger-main {
-    position: absolute;
-    top: 15px;
-    right: 0px;
-    display: none;
-}
-
-.trigger-main a {
-    display: inline-block;
-    position: relative;
-    z-index: 210;
-}
-
-.trigger-main a span {
-    display: block;
-    height: 2px;
-    width: 30px;
-    background-color: #ffffff;
-    margin-bottom: 8px;
-    transition: transform .5s ease;
-    -webkit-transition: transform .5s ease;
-}
-
-.trigger-main a span:nth-child(1) {
-    transform-origin: left top;
-}
-
-.trigger-main a span:nth-child(2) {
-    transform-origin: left bottom;
-}
-
-.trigger-main a.active span:nth-child(1) {
-    -webkit-transform: rotate(45deg) translateY(-7px);
-    transform: rotate(45deg) translateY(-7px);
-}
-
-.trigger-main a.active span:nth-child(2) {
-    -webkit-transform: rotate(-45deg) translateY(7px);
-    transform: rotate(-45deg) translateY(7px);
-}
-
-
 @media(max-width: 768px) {
-    .trigger-main {
-        display: block;
-    }
-
-    header .container {
-        position: relative;
-    }
-
-    .container {
-        max-width: 750px;
-    }
-
-    .resume .resume-content .card .box h3 {
-        min-height: 50px;
-    }
-
-    header {
-        position: fixed;
-        background-color: #222222;
-    }
-
-    header .navbar {
-        position: fixed;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        width: 180px;
-        background-color: #222222;
-        z-index: 200;
-        padding-top: 80px;
-        -webkit-transform: translateX(100%);
-        transform: translateX(100%);
-        transition: transform .5s ease;
-        -webkit-transition: -webkit-transform .5s ease;
-    }
-
-    header .navbar.open {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-    }
-
-    header .navbar ul li {
-        display: block;
-    }
-
-    .home .home-text h3 {
-        font-size: 40px;
-    }
-
-    .home .home-text {
-        left: 0;
-        padding: 0px 15px;
-    }
-
+    
     .about .about-content .img {
         width: 100%;
     }
@@ -553,21 +274,12 @@ footer {
         width: 100%;
     }
 
-    .resume .resume-content .card {
-        width: 50%;
-    }
 
     .portfolio .portfolio-content .card {
         width: 50%;
     }
 
-    .resume .resume-content .card {
-        width: 100%;
-    }
-
-    .resume .resume-content .card .box h3 {
-        min-height: auto;
-    }
+    
 
     .portfolio .portfolio-content .card {
         width: 100%;
@@ -577,3 +289,4 @@ footer {
         width: 100%;
     }
 }
+

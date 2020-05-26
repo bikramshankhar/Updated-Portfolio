@@ -12,29 +12,30 @@
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <a href="#home">Bikram</a>
-            </div>
-            <div class="trigger-main">
-                <a href="javascript:void(0);" class="ham-burger">
-                    <span></span>
-                    <span></span>
-                </a>
-            </div>
-            <div class="navbar">
-                <ul>
-                    <li><a href="#home" class="active">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#resume">Resume</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </header>
-
+    
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Bikram Shankhar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Me</a>
+                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+    </nav>
+        
     <section class="home" id="home">
         <div class="container">
             <div class="home-text">
@@ -52,9 +53,7 @@
         </div>
 
     </section>
-
-
-    <section class="about" id="about">
+    <div class="about" id="about">
         <div class="container">
             <h2 class="title">About Me</h2>
             <div class="about-content">
@@ -64,128 +63,82 @@
                 <div class="description">
                     <h4>Hi, I'm Bikram Shankhar</h4>
                     <h5>Web Developer</h5>
-                    <p>Lorem ipsum dolor sit amet, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+                    <p> I am originally from Nepal and I am currently living in Chicago. I am student in Northwastern University. I am taking a full stack coding bootcamp which is six month web development course.
                     <p>Lorem ipsum dolor sit amet, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.Lorem ipsum dolor sit amet, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.Lorem ipsum dolor sit amet, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
-    <section class="resume" id="resume">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 class="title">Resume</h2>
-                    <div id="accordion">
-                        <div class="card">
-                            <div class="card-header" id="headingOne">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                       <i class="fa fa-angle-right" aria-hidden="true"></i> Education
-                                    </button>
-                                </h5>
-                            </div>
-
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                                <div class="card-body">
-                                    <ul>
-                                        <li>
-                                            <h5>Mather High School</h5>
-                                            <p>2011-2015</p>
-                                        </li>
-                                        <li>
-                                            <h5>Harry S. Truman Community College</h5>
-                                            <p> 2015-2018</p>
-                                        </li>
-                                        <li>
-                                            <h5>northwestern university</h5>
-                                            <p>2020-present</p>
-                                        </li>
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="headingTwo">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                       <i class="fa fa-angle-right" aria-hidden="true"></i> Expreince
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                                <div class="card-body">
-                                    <ul>
-                                        <li>
-                                            <h5>Living Water Community Church</h5>
-
-                                        </li>
-                                        <li>
-                                            <h5> Trump Hotel Chicago</h5>
-                                            <p> 2019-present</p>
-                                        </li>
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="headingThree">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                      <i class="fa fa-angle-right" aria-hidden="true"></i>  Skills
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                                <div class="card-body">
-                                    <ul>
-                                        <li>Microsoft Office- Word, PowerPoint</li>
-                                        <li>HTML, CSS, and javascript</li>
-                                        <li>Language fluency- Nepali, Hindi, and English</li>
-                                    </ul>
-                                    <a href="./images/bikramresume.pdf" target="_blank"><button type="button" class="btn-bg">Link to PDF</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
-            </div>
-        </div>
-    </section>
-
-    <section class="portfolio" id="portfolio">
+    <div class="portfolio" id="portfolio">
         <div class="container">
             <h2 class="title">Portfolio</h2>
-            <h3>My work</h3>
             <div class="portfolio-content">
-                <div class="card">
+                <div class="card stock">
                     <div class="box">
-                        <h4>Code quiz</h4>
-                        <a href="https://github.com/bikramshankhar/Code-quiz" target="_blank"><img src="images/codequiz.png" alt="portfolio" /></a>
-                    </div>
-                </div>
-                <div class="card dayplanner">
-                    <div class="box">
-                        <h4>Day planner</h4>
-                        <a href="https://github.com/bikramshankhar/Day-planner" target="_blank"><img src="images/dayplanner.png" alt="portfolio" /></a>
+                        <a href="https://bikramshankhar.github.io/Code-quiz/" target="_blank"><img src="images/codequiz.png" alt="portfolio" /></a>
+                        <div class="card-body">
+                            <h5 class="card-title">code quiz</h5>
+                            <p class="card-text">A short quiz with 5 questions to the user with 75 seconds as a count down. Every time the user gets a answer wrong, 15 seconds are deducted from the countdown clock.
+                                <a href="https://github.com/bikramshankhar/Code-quiz" target="_blank">Link to Github repository</a></p>
+                          </div>
                     </div>
                 </div>
                 <div class="card stock">
                     <div class="box">
-                        <h4>Stock news</h4>
+                        <a href="https://bikramshankhar.github.io/Weather-Dashborad/" target="_blank"><img src="images/weather.png" alt="portfolio" /></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Weather-Dashborad</h5>
+                            <p class="card-text">The weather dashboard is an interactive web application that lets users get the current weather status and the 5 day weather forecast for multiple cities.
+                                <a href="https://github.com/bikramshankhar/Weather-Dashborad" target="_blank">Link to Github repository</a></p>
+                          </div>
+                    </div>
+                </div>
+                <div class="card stock">
+                    <div class="box">
                         <a href="https://kyleres.github.io/Finance_App/" target="_blank"><img src="images/flyte.png" alt="portfolio" /></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Flyte</h5>
+                            <p class="card-text">a finance app that allows the user to search for data about specific stocks. Users can search through a list of common and popular stocks and see detailed information about their daily performance as well as any news articles that may be of interest to the investor.
+                                <a href="https://github.com/kyleres/Finance_App" target="_blank">Link to Github repository</a></p>
+                          </div>
+                    </div>
+                </div>
+                <div class="card stock">
+                    <div class="box">
+                        <a href="https://shielded-citadel-98819.herokuapp.com/" target="_blank"><img src="images/note-taker.png" alt="portfolio" /></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Note-Taker</h5>
+                            <p class="card-text">A note taker app purpose is to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
+                                <a href="https://github.com/bikramshankhar/Note-Taker" target="_blank">Link to Github repository</a></p>
+                          </div>
+                    </div>
+                </div>
+                <div class="card stock">
+                    <div class="box">
+                        <a href="https://glacial-mountain-50073.herokuapp.com/burgers" target="_blank"><img src="images/burger.png" alt="portfolio" /></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Burger</h5>
+                            <p class="card-text">This app lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, the app will display the burger on the left side of the page and when the user clicks bevour button, the burger will move to the right side of the page.
+                               <a href="https://github.com/bikramshankhar/Node-Express-Handlebars" target="_blank">Link to Github repository</a></p>
+                          </div>
+                    </div>
+                </div>
+                <div class="card stock">
+                    <div class="box">
+                        <a href="https://kyleres.github.io/Finance_App/" target="_blank"><img src="images/stockwatch.png" alt="portfolio" /></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Stock Watch</h5>
+                            <p class="card-text">Stock watch app allows users to track an unlimited amount of stocks and filter their tracked stocks based on buy and sell price limits.
+                                <a href="https://github.com/bikramshankhar/Code-quiz" target="_blank">Link to Github repository</a></p>
+                          </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
-    <section class="contact" id="contact">
+    <div class="contact" id="contact">
         <div class="container">
             <h2 class="title">Contact Me</h2>
             <div class="content">
@@ -193,7 +146,7 @@
                     <div class="icon">
                         <span class="fa fa-phone"></span>
                     </div>
-                    <h4>Phone</h4>
+                    <h4>Phone Number</h4>
                     <a href="tel:8722035767">
                         <p>8722035767</p>
                     </a>
@@ -209,19 +162,38 @@
                 </div>
                 <div class="box">
                     <div class="icon">
-                        <span class="fa fa-map-marker"></span>
+                        <span class="fa fa-github"></span>
                     </div>
-                    <h4>Location</h4>
-                    <a href="https://www.google.com/maps/place/6435+N+Washtenaw+Ave,+Chicago,+IL+60645/@41.9986824,-87.6991459,17z/data=!3m1!4b1!4m5!3m4!1s0x880fd1df7a791091:0x37384c072b9bb688!8m2!3d41.9986824!4d-87.6969572" target="_blank">
-                        <p>6435 N Washtenaw </p>
+                    <h4>GitHub</h4>
+                    <a href="https://github.com/bikramshankhar?tab=repositories">
+                        <p>bikramshankhar</p>
                     </a>
                 </div>
+                <div class="box">
+                    <div class="icon">
+                        <span class="fa fa-file"></span>
+                    </div>
+                    <h4>resume</h4>
+                    <a href="./images/bikramresume.pdf">
+                        <p>Bikram Shankhar</p>
+                    </a>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <span class="fa fa-linkedin"></span>
+                    </div>
+                    <h4>linkedin</h4>
+                    <a href="https://www.linkedin.com/feed/?trk=onboarding-landing">
+                        <p>Bikram Shankhar</p>
+                    </a>
+                </div>
+            
             </div>
 
 
         </div>
         </div>
-    </section>
+    </div>
 
     <footer>&copy; Copyright 2020</footer>
 
