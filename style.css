@@ -4,99 +4,7 @@ body {
     text-decoration: none;
 }
 
-.home {
-    min-height: 100vh;
-    width: 100%;
-    padding: 0px 15px;
-    background-color: #333;
-    background-image: url(images/mainbackgroundimg);
-}
 
-.home .home-text {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.home .home-text h1 {
-    font-size: 35px;
-    color: #ffffff;
-    margin: 10px 0px;
-    font-weight: 400;
-    animation: slideLeft 1.5s ease;
-}
-
-.home .home-text h3 {
-    font-size: 60px;
-    color: #fff;
-    margin: 15px 0px 0px;
-    font-weight: 700;
-    animation: slideRight 1.5s ease;
-}
-
-@keyframes slideLeft {
-    0% {
-        transform: translateX(-100%);
-        opacity: 0
-    }
-
-    100% {
-        transform: translateX(0);
-        opacity: 1
-    }
-}
-
-@keyframes slideRight {
-    0% {
-        transform: translateX(100%);
-        opacity: 0
-    }
-
-    100% {
-        transform: translateX(0);
-        opacity: 1
-    }
-}
-
-.social-links {
-    float: left;
-    width: 100%;
-    text-align: center;
-    padding-top: 15px;
-}
-
-.social-links ul {
-    padding: 0;
-    list-style: none;
-    margin: 0;
-}
-
-.social-links ul li {
-    display: inline;
-}
-
-.social-links ul li a {
-    display: inline-block;
-    padding: 15px 15px;
-}
-
-.social-links ul li a span {
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    border: 1px solid #fff;
-    color: #fff;
-    line-height: 38px;
-    text-align: center;
-    font-size: 16px;
-    transition: all .3s ease;
-}
-
-.social-links ul li a span:hover {
-    background-color: #d63447;
-    color: #ffffff;
-}
 
 .about {
     float: left;
@@ -205,8 +113,6 @@ h2.title::before {
 .portfolio .portfolio-content .card .box img {
     width: 100%;
 }
-
-
 
 #contact {
     float: left;
