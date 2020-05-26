@@ -2,6 +2,13 @@
 Updated version of my portolio using CSS, Bootstrap, & JavaScript. Features mobile responsiveness <b>
 <a href="https://bikramshankhar.github.io/Updated-Portfolio/">Click me to see Portfolio</a>
 
+## Tools Used
+```
+Bootstrap
+HTML
+CSS
+ ```
+
 <h2>Screen Shot</h2>
 <img src="images/portfolio.png">
 <h2>Mobile responsive</h2>
