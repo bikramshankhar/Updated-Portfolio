@@ -82,20 +82,9 @@ h2.title::before {
     font-weight: 400;
 }
 
-
-.portfolio {
-    float: left;
+.portfolio img{
     width: 100%;
-    padding: 80px 0px;
-    background-color: #e6e6e6;
 }
-/* 
-.portfolio h3 {
-    text-transform: uppercase;
-    color: #000;
-    font-weight: 700;
-    padding: 15px;
-} */
 /* 
 .portfolio .portfolio-content {
     float: left;
