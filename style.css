@@ -82,26 +82,33 @@ h2.title::before {
     font-weight: 400;
 }
 
+#portfolio {
+    float: left;
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #e6e6e6;
+}
+
 .portfolio img{
     width: 100%;
 }
-/* 
+
 .portfolio .portfolio-content {
     float: left;
     width: 100%;
-} */
+}
 
-.portfolio .portfolio-content .card {
+/* .portfolio .portfolio-content .card {
   float: left;
     width: 33.33%;
     padding: 15px;
     margin: auto;
-    /* cursor: pointer; */
-}
+    cursor: pointer;
+} */
 
-.portfolio .portfolio-content .card .box img {
+/* .portfolio .portfolio-content .card .box img {
     width: 100%;
-}
+} */
 
 #contact {
     float: left;
