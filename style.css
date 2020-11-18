@@ -245,6 +245,13 @@ footer {
 
 
 @media(max-width: 768px) {
+
+
+
+    .home-pic {
+        display: none;
+    }
+    
     
     .about .about-content .img {
         width: 100%;
